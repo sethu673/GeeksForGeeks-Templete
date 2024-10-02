@@ -1,0 +1,38 @@
+
+    body {
+        background: yellow;
+    }
+ 
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: rgb(94, 6, 6);
+        font-size: 40px;
+    }
+ 
+    .geeks {
+        width: 450px;
+        height: 250px;
+        background: white;
+        position: absolute;
+        top: 15%;
+        left:36%;
+        border-radius: 20px;
+    }
+ 
+    .geeks::after {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        background: rgb(81, 2, 2);
+        width: 90%;
+        height: 4px;
+        left: 3%;
+        border-radius: 50%;
+        filter: blur(3px);
+    }
+    .container{
+        align-items: center;
+        display: inline-block;
+        padding: 50px;
+    }
